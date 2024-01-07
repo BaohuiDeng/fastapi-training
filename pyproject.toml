@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-traning"
+version = "0.1.0"
+description = ""
+authors = ["Baohui Deng <b.deng@greyrook.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_traning"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
